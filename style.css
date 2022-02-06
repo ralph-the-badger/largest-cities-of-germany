@@ -1,0 +1,46 @@
+.legend {
+  background-color: #fff;
+  color: #313131;
+  padding: 10px 30px 10px 20px;
+  margin-bottom: 20px !important;
+  margin-right: 20px !important;
+  box-shadow: 5px 5px 5px rgba(51, 51, 51, 0.5);
+}
+
+.legend .legend-heading {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.legend .legend-item {
+  padding-bottom: 5px;
+}
+
+.legend .legend-item__color {
+  width: 15px;
+  height: 15px;
+  float: left;
+  padding-bottom: 10px;
+  opacity: 0.9;
+  border-radius: 50%;
+  border: 1px solid #000;
+}
+
+.legend .legend-item__content {
+  line-height: 15px;
+  font-size: 14px;
+}
+
+@media only screen and (max-width: 989px) {
+  .content {
+    width: 100%;
+  }
+  #map {
+    width: 500px !important;
+    margin: 0 auto;
+  }
+  .content .project h1 {
+    font-size: 28px;
+    line-height: 36px;
+  }
+}
